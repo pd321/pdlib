@@ -1,0 +1,18 @@
+Package: pdlib
+Type: Package
+Title: A set of handy functions to make my life easier
+Version: 0.1.1
+Author: pd321
+Maintainer: pd321 <pdlib@cdp.anonaddy.com>
+Description: More about what it does (maybe more than one line)
+    Implemented functions:-
+      intersectAndExtendBed - Function to take a set of bed files and interect them and merge any overlaping regions. You can optionally set the minimum number of bed files a region should be present in before overlapping.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+  DiffBind
+Suggests: 
+    testthat,
+    GenomicRanges
+RoxygenNote: 7.1.1
